@@ -1,0 +1,29 @@
+<!-- Define o título da página -->
+<h1>Calculadora de Filamento - 3DSQUAD</h1>
+
+<!-- Cria um formulário para inserir as informações -->
+<form>
+  <!-- Adiciona um texto de instrução -->
+  <p>Preencha as informações abaixo</p>
+
+  <!-- Adiciona um campo de entrada para o peso do filamento -->
+  <label for="weight">Peso do filamento com carretel (apenas números, em gramas):</label><br>
+  <input type="text" id="weight" name="weight"><br>
+
+  <!-- Adiciona um campo de seleção para o tipo de filamento -->
+  <label for="type">Tipo de filamento:</label><br>
+  <select id="type" name="type">
+    <option value="ABS">ABS</option>
+    <option value="PLA">PLA</option>
+    <option value="TPU">TPU</option>
+  </select><br>
+
+  <!-- Adiciona um botão para calcular o resultado -->
+  <input type="submit" value="Calcular">
+</form> 
+
+<!-- Adiciona um elemento de texto para exibir o resultado -->
+<p>Resultado: <span id="resultado"></span></p>
+
+<!-- Adiciona uma imagem -->
+<img src="C:\Users\iagor\Downloads\img120120.png" alt="Logo da 3DSQUAD">
